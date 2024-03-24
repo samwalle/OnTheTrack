@@ -1,0 +1,49 @@
+.team{
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: #133c7e;
+    border-radius: 20px;
+}
+
+.name{
+    background-color: #a2bde8;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 20px;
+    resize: none;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Change the font-family */
+    font-size: 30px; /* Change the font size */
+    color: #333; /* Change the text color */
+}
+
+
+
+.scoreContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 1px; /* Gap between grid items */
+    width: 100%; /* Set a width for the grid container */
+    height: 100%;
+    margin: 0 auto; /* Center the grid */
+    border-radius: 8px;
+}
+
+.increaseScore{
+    border-radius: 8px;
+}
+
+.decreaseScore{
+    border-radius: 8px;
+}
+
+.score{
+    align-items: center;
+    justify-content: center;
+    font-size: 130px;
+    color: aliceblue;
+}
